@@ -1,0 +1,102 @@
+GAMS 35.2.0  r33388c4 Released Jun  2, 2021 DEX-DEG x86 64bit/Mac OS X - 08/19/21 18:32:43 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+
+
+COMPILATION TIME     =        0.593 SECONDS     83 MB  35.2.0 r33388c4 DEX-DEG
+GAMS 35.2.0  r33388c4 Released Jun  2, 2021 DEX-DEG x86 64bit/Mac OS X - 08/19/21 18:32:43 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE GAMS_MODEL Using MINLP From line 612116
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS     126,002     SINGLE EQUATIONS      126,002
+BLOCKS OF VARIABLES     120,021     SINGLE VARIABLES      120,021
+NON ZERO ELEMENTS       480,021     NON LINEAR N-Z              0
+CODE LENGTH                   0     CONSTANT POOL              16     DISCRETE VARIABLES         20
+
+
+GENERATION TIME      =        1.631 SECONDS    166 MB  35.2.0 r33388c4 DEX-DEG
+GAMS 35.2.0  r33388c4 Released Jun  2, 2021 DEX-DEG x86 64bit/Mac OS X - 08/19/21 18:32:43 Page 3
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE GAMS_MODEL Using MINLP From line 612116
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   GAMS_MODEL          OBJECTIVE  GAMS_OBJECTIVE
+     TYPE    MINLP               DIRECTION  MINIMIZE
+     SOLVER  BARON               FROM LINE  612116
+
+**** SOLVER STATUS     1 Normal Completion         
+**** MODEL STATUS      1 Optimal                   
+**** OBJECTIVE VALUE               14.5536
+
+ RESOURCE USAGE, LIMIT          3.600 10000000000.000
+ ITERATION COUNT, LIMIT         0    2147483647
+ EVALUATION ERRORS              0             0
+
+GAMS/BARON       35.2.0 r33388c4 Released Jun 02, 2021 DEG x86 64bit/Mac OS X 
+
+BARON is a product of The Optimization Firm, LLC. http://www.minlp.com/
+Parts of the BARON software were created at the
+University of Illinois at Urbana-Champaign.
+
+--- Using Option File
+Reading parameter(s) from "/Users/zach/UCLA Anderson Dropbox/Zach Siegel/UCLA_classes/research/Polling/src/eco_inference/gams_aux/baron.opt"
+>>  * https://www.gams.com/latest/docs/S_BARON.html
+>>  Threads=6
+>> 
+Finished reading from "/Users/zach/UCLA Anderson Dropbox/Zach Siegel/UCLA_classes/research/Polling/src/eco_inference/gams_aux/baron.opt"
+
+===========================================================================
+ BARON version 21.1.13. Built: OSX-64 Wed Jan 13 16:05:14 EST 2021
+
+ BARON is a product of The Optimization Firm.
+ For information on BARON, see https://minlp.com/about-baron
+
+ If you use this software, please cite publications from
+ https://minlp.com/baron-publications, such as: 
+
+ Zhou, K., M. Kilinc, X. Chen, and N. V. Sahinidis,
+ An efficient strategy for the activation of MIP
+ relaxations in a multicore global MINLP solver,
+ Journal of Global Optimization, 70:497-516, 2018.
+===========================================================================
+ This BARON run may utilize the following subsolver(s)
+ For LP/MIP/QP: ILOG CPLEX                                      
+
+Solution      = 14.5536056890985  best solution found during preprocessing
+Best possible = 14.5536056891
+Absolute gap  = 1.54365409343882E-12  optca = 1E-9
+Relative gap  = 1.0606678004166E-13  optcr = 0.85
+  (Note that BARON uses a different formula to compute the relative gap as
+   was used for the above reported value.)
+
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                             0     ERRORS
+                             1  PROJECTED
+GAMS 35.2.0  r33388c4 Released Jun  2, 2021 DEX-DEG x86 64bit/Mac OS X - 08/19/21 18:32:43 Page 4
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+E x e c u t i o n
+
+
+EXECUTION TIME       =        8.991 SECONDS    166 MB  35.2.0 r33388c4 DEX-DEG
+
+
+USER: Eval License                                   G210630|0002AO-GEN
+      UCLA, Anderson Graduate School of Mgmt.                   DCE1435
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      /Users/zach/UCLA Anderson Dropbox/Zach Siegel/UCLA_classes/research/Polling/src/eco_inference/gams_aux/_gams_py_gjo0.gms
+Output     /Users/zach/UCLA Anderson Dropbox/Zach Siegel/UCLA_classes/research/Polling/src/eco_inference/gams_aux/_gams_py_gjo0.lst

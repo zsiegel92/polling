@@ -1,0 +1,8 @@
+max_iter 200000
+tol .5
+dual_inf_tol 10
+constr_viol_tol .001
+compl_inf_tol .01
+milp_solver Cplex
+bonmin.algorithm B-iFP
+linear_solver ma57

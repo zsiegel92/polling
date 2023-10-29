@@ -1,0 +1,16 @@
+Let T and X be the statistics P(t=1) and P(x=1) at the level of aggregation with n individuals. Let beta_B and beta_W denote P(t=1 | x=1) and P(t=1 | x=0), respectively. Let b_B and b_W be estimates of beta_B and beta_W with standard error epsilon.
+
+Utilizing only T and X
+
+There are (n choose T*n) possibilities for outcome, and thus as many scenarios. No knowledge of X is utilized.
+
+
+Utilizing oracle estimates of beta_B and beta_W
+
+There are (n*X choose beta_B*n*X)(n*(1-X) choose beta_W*n*(1-X)) possible scenarios. Note that n=n*X + n*(1-X) and T*n = beta_B*n*X + beta_W*n*(1-X).
+
+
+
+Utilizing b_B and b_W
+
+There are (n*X choose b_B*n*X)(n*(1-X) choose b_W*n*(1-X)) possible scenarios. The error in these terms is potentially large.

@@ -1,0 +1,12 @@
+optcr .01
+* algorithms: B-BB (default), B-OA, B-QG, B-Hyb, B-Ecp, B-iFP, Cbc_Par
+* https://www.gams.com/latest/docs/S_BONMIN.html
+
+allowable_fraction_gap .01
+bonmin.algorithm B-OA
+milp_solver Cplex
+
+
+
+Using BARON as a multi-start heuristic solver
+To gain insight into the difficulty of a nonlinear program, especially with regard to existence of multiple local solutions, modelers often make use of multiple local searches from randomly generated starting points. This can be easily done with BARON's NumLoc option, which determines the number of local searches to be done by BARON's preprocessor. BARON can be forced to terminate after preprocessing by setting the number of iterations to 0 through the MaxIter option. In addition to local search, BARON's preprocessor performs extensive reduction of variable ranges. To sample the search space for local minima without range reduction, one would have to set to 0 the range reduction options TDo, MDo, LBTTDo, and OBTTDo. On the other hand, leaving these options to their default values increases the likelihood of finding high quality local optima during preprocessing. If NumLoc is set to -1, local searches in preprocessing will be done from randomly generated starting points until global optimality is proved or MaxTime seconds have elapsed.

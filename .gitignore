@@ -1,0 +1,12 @@
+**/__pycache__
+**/.env
+**/*.sublime-workspace
+**/*.sublime-project
+**/*.pickle
+**/*.zip
+**/*.ipynb_checkpoints
+**/*.nb
+**/*.DS_Store
+**/trun_mvnt/*
+**/trun_mvnt
+eco_inference/trun_mvnt
